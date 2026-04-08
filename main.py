@@ -471,6 +471,9 @@ class ProcessResponse(BaseModel):
 
 
 # ─── Endpoints ───────────────────────────────────────────────────────────────
+@app.get("/")
+async def root():
+    return {"status": "ok", "message": "Multi-Agent AI System is running"}
 
 @app.get("/health")
 async def health():
