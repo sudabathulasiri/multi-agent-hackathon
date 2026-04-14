@@ -40,7 +40,7 @@ POST /process
 
 ```bash
 # 1. Set your API key
-export ANTHROPIC_API_KEY=sk-ant-...
+export GOOGLE_API_KEY=AIza........
 
 # 2. Install dependencies
 pip install -r requirements.txt
